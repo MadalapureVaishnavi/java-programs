@@ -11,7 +11,8 @@ public class Main {
                 int atEveryIndex = originalN - Math.min(Math.min(row, col), Math.min(n - row, n - col));
                 System.out.print(atEveryIndex + " ");
             }
-            System.out.println();
+            System.out.println();  
+            
         }
     }
 
